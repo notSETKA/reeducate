@@ -1,0 +1,16 @@
+.reeducate {
+    width: 200px;
+    height: 150px;
+  }
+  
+  .abara {
+    background-color: yellow;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: purple;
+  }
+  
+  button {
+background-color: rgb(255, 0, 0);
+  }
+

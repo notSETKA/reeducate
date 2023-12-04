@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Reviews</title>
+  <link rel="stylesheet" href="support.css">
+</head>
+<body class="abara">
+  
+  <ul>
+    <li>
+        <a href="REEDUCATEhome.html">
+           <h3>home</h3>
+        </a>
+    </li>
+    <li>
+        <a href="Courses.html">
+             <h3>Courses</h3>
+        </a>
+    </li>
+    <li>
+        <a href="Staff.html">
+             <h3>about us</h3>
+        </a>
+    </li>
+    <li>
+        <a href="Support.html">
+            <h3>Support</h3>
+        </a>
+    </li>
+</ul>
+
+  <h1>Write a Review</h1>
+<h3>დაწერეთ თქვენი შეფასება RE:educate-ზე</h3>
+<h4>სწავლების მეთოდები,გარემო და სხვა ფაქტორების შესახებ</h4>
+  <form action="submit_review.php" method="POST">
+    <label for="name" class="abara">Name:</label>
+    <input type="text" id="name" name="name" required class="abara"><br>
+
+    <label for="rating">Rating:</label>
+    <select class="abara" name="rating" required>
+      <option value="5">5 Stars</option>
+      <option value="4">4 Stars</option>
+      <option value="3">3 Stars</option>
+      <option value="2">2 Stars</option>
+      <option value="1">1 Star</option>
+    </select><br>
+
+    <label for="review">Review:</label><br>
+    <textarea class="abara" name="review" rows="4" cols="50" required></textarea><br>
+
+    <input type="submit" value="Submit" class="abara">
+  </form>
+  
+</body>
+</html>

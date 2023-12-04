@@ -1,0 +1,6 @@
+.abara {
+    background-color: yellow;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: purple;
+}

@@ -1,0 +1,25 @@
+.game-dev {
+    width: 350px;
+    height: 250px;
+  }
+
+  .cyber-security {
+    width: 350px;
+    height: 300px;
+  }
+
+  .abara {
+    background-color: yellow;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: purple;
+  }
+ 
+  .web-development {
+    width: 350px;
+    height: 300px;}
+
+    .graphic-designing {
+        width: 350px;
+        height: 300px;}
+

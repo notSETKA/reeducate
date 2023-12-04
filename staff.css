@@ -1,0 +1,11 @@
+.abara {
+    background-color: yellow;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: purple;
+  }
+
+  .pavle {
+width: 500px;
+height: 300px;
+  }
